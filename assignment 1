@@ -1,0 +1,30 @@
+Play with directory: 
+    1.1  create a directory without name from command line
+           
+           directory can be created by using "mkdir" command
+           syntax or example = mkdir abhijit
+           "abhijit" directory is created 
+           
+           
+           if u have to create a direcoty without letters or name
+           special characters or inverted comas can be used
+           example = A) mkdir ' '
+           ' ' directory is created 
+           if u will type "ls" command with  other directories ' '  will also be shown
+                     B) mkdir $
+                     $ directory is created 
+                     
+    1.2  create a directory using name "-okgoogle"
+           
+           
+         basic command for making directory is "mkdir"
+         lets suppose we typed mkdir "-okgoogle"
+         it will show " mkdir : invaid option -- "o" "
+         kernel is considering -o of "-okgoogle" as a option of mkdir command
+         to create "-okgoogle" directory we are gonna eliminate the position of mkdir options by placing "--"
+         it will fill the position of option but it will not do anything 
+         as soon as we will place this sign mkdir cmmand will not  consider -o of  "-okgoogle" as option 
+         example =  mkdir -- "-okgoogle"
+         it will create "-okgoogle " directory 
+         
+           

@@ -27,4 +27,8 @@ Play with directory:
          example =  mkdir -- "-okgoogle"
          it will create "-okgoogle " directory 
          
-           
+2 Block system call :
+   2.1 block system call for date command
+   
+   
+   2.2 block  system call for firefox 

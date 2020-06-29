@@ -15,13 +15,40 @@
   
   2 Share and files and folder 
 
-create two users name jack and Jill  from command line
-create all the data under home directory of each users 
-login with jack user and create a file name  jack.txt using vim editor and write "hello jack"
-from jack user also create two directories name jack1 & jack2 
-now login from Jill user and create a file. Jill.txt using vim editor and write "hey jiil"
-from Jill also create two directoires named jill1 & jill2 
-
+  2.1 create two users name jack and Jill  from command line
+    => useradd jack
+    => useradd jill
+     "useradd" =  this command is used to create a user in linux 
+      or "adduser" can also be used , depends on which linux u are using!
+     
+  2.2 create all the data under home directory of each users
+    => login into each user account 
+    
+  2.3 login with jack user and create a file name  jack.txt using vim editor and write "hello jack"
+    => su jack 
+     "su" = switch user is used to switch between different user in a linux machine 
+    => vim jack.txt
+     "vim" =  it is  a text editor used in linux . there are many teext editor like vi, nano.
+     After entering jack.txt file press "I" to enter into insert mode , so u can type your message.
+    => now type "hello jack"
+     now press "esc" key to get out of insert mode 
+    =>:wq! 
+     it will save  the text written in file and exit the file and will bring you to terminal
+     "q"  is used to exit editor without saving 
+     "w" is used to save the changes 
+  2.4 from jack user also create two directories name jack1 & jack2
+    => mkdir jack1 jack2 
+     two directories names "jack1" and "jack2" are created
+  2.5 now login from Jill user and create a file. Jill.txt using vim editor and write "hey jiil"
+    => su jill 
+    => vim jill.txt
+    => type "hey jill"
+    => :wq!
+    
+  2.6 from Jill also create two directoires named jill1 & jill2 
+    => mkdir jill1 and jill2
+    two directories created names "jill1" and "jill2"
+    
 Important :  swap these files and directories in between users  and to swap don't use root account.
 
 

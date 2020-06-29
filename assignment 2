@@ -1,0 +1,28 @@
+1 Create a directory structure
+ Note :   You are only allowed to use a single command and only one time
+  we have to create a directory structure and store it in a text fileor directory name ="reboot.txt"
+  
+  example = mkdir -p a/{b/{g/k/reboot.txt,h/j/reboot.txt},c/{i/j/reboot.txt,j/l/reboot.txt},d/{f/l/reboot.txt,e/m/reboot.txt}}
+  mkdir = command used to make directory in linux 
+  -p = is for parent directory , any direcotory name written after is paresnt directory
+      example =  mkdir -p abhijit/gehlot
+        here abhijit is parent directory and gehlot is sub directory of abhijit or in other words gehlot names directory is saved in abhijit named directory
+   "/" = it is used for sub directory of to form a directory in a directory 
+     example =   mkdir d/g
+       here g directory is formed inside d 
+     
+  
+  
+  2 Share and files and folder 
+
+create two users name jack and Jill  from command line
+create all the data under home directory of each users 
+login with jack user and create a file name  jack.txt using vim editor and write "hello jack"
+from jack user also create two directories name jack1 & jack2 
+now login from Jill user and create a file. Jill.txt using vim editor and write "hey jiil"
+from Jill also create two directoires named jill1 & jill2 
+
+Important :  swap these files and directories in between users  and to swap don't use root account.
+
+
+    

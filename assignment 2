@@ -49,7 +49,18 @@
     => mkdir jill1 and jill2
     two directories created names "jill1" and "jill2"
     
-Important :  swap these files and directories in between users  and to swap don't use root account.
-
+  2.7  swap these files and directories in between users  and to swap don't use root account.
+     Open terminal and run following command
+     =>cp -r /home/jack/{jack1,jack2,jack.txt} /tmp (Copying jack's data to tmp folder as /tmp directory is shared among all users)
+     Now log out and login as jill
+     Open terminal and run following command
+     =>cp -r /tmp/{jack1,jack2,jack.txt} /home/jill (Copying from tmp folder to jill home directory)
+     This will copy files of jack to jill user
+     Now run the following command
+     =>cp -r /home/jill/{jill1,jill2,jill.txt} /tmp (Copying jill's data to tmp folder as /tmp directory is shared among all users)
+    Now log out and login as jack
+    Open terminal and run following command
+    =>cp -r /tmp/{jill1,jill2,jill.txt} /home/jack (Copying from tmp folder to jack home directory)
+   
 
     

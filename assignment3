@@ -1,0 +1,23 @@
+1 Play with files and directories 
+   => cd /tmp
+     it will change present working directory to tmp 
+  create  3 files named   abc.txt  ok  fine  g.txt  /tmp directory
+   => touch abc.txt
+   => touch okfine
+   => touch g.txt
+     touch will create empty  files in tmp directory
+     abc.txt , okfine, g.txt  are creted in pwd
+  create  4  directories   aa aaa aaaa  under  /tmp directory
+   => mkdir a aa aaa aaaa
+    it will create 4 directories im tmp names a,aa,aaa,aaaa
+  give ls command to  list the content of  /tmp directory 
+  make sure it will only list the content (file|directory)  having 2 char in their name.
+  a) for directories we can use
+    => ls -d ??
+      it will give  name of directory having 2 letter in it
+      output = aa
+      ls is for list , list of folder , directories present
+      d reperesent directories
+      ? reperesent letter, 2 ?? reperesent havinf 2 char or letter 
+   
+  b) for file we can use 

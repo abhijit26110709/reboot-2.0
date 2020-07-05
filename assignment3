@@ -35,10 +35,16 @@
   
   =>curl -s command 
     curl is bascially used to tranfer data from one to another server. it also have some useful tricks it can hide progress meter or can say otutput of url on terminal 
-    -s is used to silence the output or can say it doesnt show progress meter . in other owrtds can hide the output from terminal 
+    -s is used to silence the output or can say it doesnt show progress meter . in other words we can hide the output from terminal 
   => curl -s date 
      date command will execute but output wont be shown on terminal
    => curl -s cal
    => curl -s whoami
    => curl is ls
     these are some of examples of curl command
+    
+
+
+
+3) Delete a particular entry from History without leaving any trace of it being deleted
+  

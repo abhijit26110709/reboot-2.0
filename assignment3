@@ -12,7 +12,7 @@
     it will create 4 directories im tmp names a,aa,aaa,aaaa
   give ls command to  list the content of  /tmp directory 
   make sure it will only list the content (file|directory)  having 2 char in their name.
-  a) for directories we can use
+  a)  one method is 
     => ls -d ??
       it will give  name of directory having 2 letter in it
       output = aa
@@ -20,4 +20,25 @@
       d reperesent directories
       ? reperesent letter, 2 ?? reperesent havinf 2 char or letter 
    
-  b) for file we can use 
+  b) second mtehod is 
+    => ls --ignore='???*' 
+    ignore is used to exclude files or directories 
+    ???* is ued to exclude files or directories more than 2 letter in their name
+    
+    
+    
+ 2)Run command without any output 
+
+  open terminal and type any command 
+  once you press enter your output of given command must not  print
+  you are not allowed to redirect output anywhere    
+  
+  =>curl -s command 
+    curl is bascially used to tranfer data from one to another server. it also have some useful tricks it can hide progress meter or can say otutput of url on terminal 
+    -s is used to silence the output or can say it doesnt show progress meter . in other owrtds can hide the output from terminal 
+  => curl -s date 
+     date command will execute but output wont be shown on terminal
+   => curl -s cal
+   => curl -s whoami
+   => curl is ls
+    these are some of examples of curl command
